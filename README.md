@@ -21,7 +21,7 @@ A production-ready **Spatio-Temporal Conflict Detection System** for multiple UA
 7. [Usage Guide](#usage-guide)
 8. [Scalability Discussion](#scalability-discussion)
 9. [Testing Strategy](#testing-strategy)
-10. [Video Script Guide](#video-script-guide)
+
 
 ---
 
