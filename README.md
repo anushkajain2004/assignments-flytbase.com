@@ -1,4 +1,4 @@
-# 🛩️ Strategic UAV Deconfliction System
+#  Strategic UAV Deconfliction System
 
 A production-ready **Spatio-Temporal Conflict Detection System** for multiple UAVs operating in shared airspace. Built as a hybrid project featuring an interactive React/TypeScript web dashboard and Python reference implementation.
 
@@ -10,7 +10,7 @@ A production-ready **Spatio-Temporal Conflict Detection System** for multiple UA
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Key Features](#key-features)
@@ -25,7 +25,7 @@ A production-ready **Spatio-Temporal Conflict Detection System** for multiple UA
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 ### Problem Statement
 In shared urban airspace, multiple autonomous UAVs (drones) operate simultaneously for delivery, surveillance, and other missions. Without proper coordination, these drones risk mid-air collisions, causing safety hazards and property damage.
@@ -45,7 +45,7 @@ This system provides **real-time spatio-temporal conflict detection** by:
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -58,7 +58,7 @@ This system provides **real-time spatio-temporal conflict detection** by:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -101,7 +101,7 @@ src/
 
 ---
 
-## 🧮 Algorithm Design
+##  Algorithm Design
 
 ### Core Algorithm: Temporal Sweep with Spatial Grid Partitioning
 
@@ -219,7 +219,7 @@ function calculateSeverity(actualDistance: number, requiredDistance: number): Se
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+ with npm
@@ -381,33 +381,6 @@ describe('performance', () => {
 
 ---
 
-## 🎥 Video Script Guide
-
-Use this guide for your voice-recorded demonstration:
-
-### Introduction (30 seconds)
-> "Hi, I'm presenting my Strategic UAV Deconfliction System. This project solves a critical problem in autonomous drone operations: preventing mid-air collisions when multiple drones share the same airspace."
-
-### Problem Statement (30 seconds)
-> "Imagine a city with 100+ delivery drones operating simultaneously. Each drone has a planned trajectory, but without coordination, they might collide. My system analyzes all trajectories BEFORE flight and detects potential conflicts."
-
-### Live Demo (2 minutes)
-> "Let me show you the dashboard. On the left, we have our fleet of 8 UAVs. In the center, the 3D visualization shows their trajectories and current positions. On the right, detected conflicts are listed with severity levels."
->
-> "Watch as I play the simulation... You can see UAV-1 and UAV-2 approaching each other. The system detected this as a CRITICAL conflict because they'll be only 10 meters apart when they require 55 meters of separation."
-
-### Technical Deep-Dive (2 minutes)
-> "The core algorithm uses temporal sweep with spatial grid partitioning. Instead of checking every pair of UAVs - which would be O(n²) - I partition space into grid cells. Each UAV only checks neighbors in adjacent cells, reducing complexity to O(n × k)."
->
-> "For trajectory interpolation, I use binary search to find the correct segment, then linear interpolation between waypoints. This gives O(log n) position lookup."
-
-### Scalability (1 minute)
-> "For 10,000+ drones, I would replace the grid with an octree for O(log n) spatial queries, implement parallel processing with Python multiprocessing, and consider GPU acceleration with CUDA for massive parallelism."
-
-### Closing (30 seconds)
-> "This project demonstrates my understanding of spatial algorithms, system design for autonomous vehicles, and production-ready software practices. The complete code is available on GitHub. Thank you for watching!"
-
----
 
 ## 📄 License
 
@@ -426,4 +399,4 @@ Built as a portfolio project demonstrating expertise in:
 
 ---
 
-**Questions?** Open an issue on GitHub or reach out directly.
+
